@@ -1,0 +1,8 @@
+{
+  "name": "my-first-static-web-app",
+  "version": "1.0.0",
+  "description": "Static friends moments app",
+  "scripts": {
+    "test": "echo 'No tests specified'"
+  }
+}
