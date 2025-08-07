@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f5f5f5;
+}
+
+.friend {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.friend h2 {
+  margin-top: 0;
+}
+
+.moments img {
+  max-width: 200px;
+  display: block;
+  margin-top: 5px;
+}
+
+.moments-list li,
+.achievements-list li {
+  margin-bottom: 10px;
+}

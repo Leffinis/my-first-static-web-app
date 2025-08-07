@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Друзья: смешные моменты и достижения</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Смешные моменты и достижения</h1>
+  <div id="friends"></div>
+
+  <template id="friend-template">
+    <section class="friend">
+      <h2 class="name"></h2>
+      <div class="moments">
+        <h3>Смешные моменты</h3>
+        <ul class="moments-list"></ul>
+        <form class="moment-form">
+          <input type="text" class="moment-text" placeholder="Описание" />
+          <input type="file" class="moment-photo" accept="image/*" />
+          <button type="submit">Добавить момент</button>
+        </form>
+      </div>
+      <div class="achievements">
+        <h3>Достижения</h3>
+        <ul class="achievements-list"></ul>
+        <form class="achievement-form">
+          <input type="text" class="achievement-text" placeholder="Описание" />
+          <button type="submit">Добавить достижение</button>
+        </form>
+      </div>
+    </section>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
